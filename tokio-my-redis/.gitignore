@@ -1,0 +1,10 @@
+log.txt
+target/
+.env
+.idea/
+.vscode/
+*.bin
+keys/
+*.log
+Cargo.lock
+arb_new/Cargo.lock
