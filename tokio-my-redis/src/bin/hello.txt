@@ -1,0 +1,1 @@
+These two traits provide the facilities to asynchronously read from and write to byte streams. The methods on these traits are typically not called directly, similar to how you don't manually call the poll method from the Future trait. Instead, you will use them through the utility methods provided by AsyncReadExt and AsyncWriteExt.

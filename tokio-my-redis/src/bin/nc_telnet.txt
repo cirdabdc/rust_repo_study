@@ -1,0 +1,14 @@
+Quick Test Commands:
+Option 1: Using nc (netcat) - Recommended
+nc localhost 6666
+Then type any text and press Enter - it should echo back to you.
+Option 2: Using curl
+curl telnet://localhost:6666
+Option 3: Test from another terminal with Rust
+I can help you create a simple test client if needed.
+To use your echo server:
+First, make sure your echo server is running:
+cargo run --bin echo-server-copy
+In another terminal, connect with:
+nc localhost 6666
+Type something and press Enter - you should see it echoed back!
