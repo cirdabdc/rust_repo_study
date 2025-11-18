@@ -1,3 +1,7 @@
 rustlings/Cargo.lock
 rustlings/target/
 rustlings/.vscode/
+
+*/target/
+*/Cargo.lock
+*/.vscode/
